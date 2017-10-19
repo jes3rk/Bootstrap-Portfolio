@@ -36,7 +36,7 @@ body {
 #footer {
   width: 100%;
   text-align: center;
-  position: sticky;
+  position: fixed;
   bottom: 0;
   left: 0;
   height: auto;
