@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Joseph Schefer</title>
+<!-- Link to Boostrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<!-- Link to local stylesheet -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+<!-- Put the nav bar here to make it stretch the whole screen -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<!-- Added this container to push all the nav elements to the middle half of the page -->
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">Joseph Schefer</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  <!-- Added a class="justify-content-end" to shove the buttons to the right -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="./index.html">About<span class="sr-only">(current)</span></a>
+            <p class="nav-item nav-link">|</p>
+            <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
+            <p class="nav-item nav-link">|</p>
+            <a class="nav-item nav-link" href="./contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </head>
+  <body>
+<!-- The primary container for the body -->
+    <div class="container">
+      <br>
+<!-- Designing one large row for the body -->
+      <div class="row">
+<!-- Primary content panel -->
+        <div class="col-md-8">
+          <div class="card" style="width: 100%;">
+            <div class="card-body">
+              <h4 class="card-title text-left">About Me</h4>
+              <img id="bio-image" src="./assets/images/Headshot-not.jpg" alt="Picture of Joseph Schefer">
+              <p class="card-text">A graduate from the University of Virginia with a Bachelor's in Economics, Joseph Schefer is a forward thinking developer and designer. With a proven track record of excellent customer service and client-facing projects from his time as an audiovisual and events technician, Joseph can not only build websites, but work with the client to design them as well.</p>
+              <p class="card-text">In his spare time, he is an avid musician, composer, and sound designer, with his compositions featured on the stage and screen. Excerpts of his work can be found at <a href="https://jschefermusic.com" target="_blank">jschefermusic.com</a></p>
+            </div>
+          </div>
+<!-- Close primary content panel -->
+        </div>
+<!-- Sidebar content -->
+        <div class="col-md-4">
+          <div class="card" style="width: 20rem;">
+            <div class="card-body">
+              <h4 class="card-title text-center">Let's Connect</h4>
+              <div class="social-icons">
+                <a href="https://github.com/jes3rk" target="_blank"><img class="sm-icon" src="./assets/images/icon_github.png" alt="GitHub"></a>
+                <a href="https://www.linkedin.com/in/joseph-schefer-2b1ab1111/" target="_blank"><img class="sm-icon" src="./assets/images/icon_linkedin.png" alt="LinkedIn"></a>
+                <a href="https://stackoverflow.com/users/8705338/joseph" target="_blank"><img class="sm-icon" src="./assets/images/icon_stackoverflow.png" alt="StackOverflow"></a>
+              </div>
+            </div>
+          </div>
+<!-- Close sidebar content -->
+        </div>
+      </div>
+<!-- Add a row for the footer -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card" id="footer">
+            <div class="card-body">
+              <p class="text-center footer">Copyright 2017</p>
+            </div>
+          </div>
+        </div>
+<!-- Close out the footer row -->
+      </div>
+    </div>
+  </body>
+</html>
